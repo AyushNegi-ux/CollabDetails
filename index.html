@@ -7,98 +7,23 @@
 
 <style>
 
-body{
+*{
+padding:0;
 margin:0;
-font-family:Arial;
-text-align:center;
-color:white;
-background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#1c92d2);
-background-size:400% 400%;
-animation:bgmove 10s ease infinite;
+box-sizing:border-box;
 }
-
-@keyframes bgmove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
-}
-
-.container{
-margin-top:70px;
-}
-
-.profile-img{
-width:130px;
-height:130px;
-border-radius:50%;
-object-fit:cover;
-border:4px solid white;
-box-shadow:0 0 20px rgba(255,255,255,0.6);
-display:block;
-margin:15px auto;
-}
-
-h1{
-margin:10px 0;
-font-size:30px;
-}
-
-.bio{
-font-size:14px;
-opacity:0.9;
-margin-bottom:25px;
-}
-
-.btn{
-display:block;
-width:220px;
-margin:12px auto;
-padding:12px;
-border-radius:25px;
-text-decoration:none;
-color:white;
-background:#ff416c;
-transition:0.3s;
-font-weight:bold;
-}
-
-.btn:hover{
-transform:scale(1.08);
-background:#ff4b2b;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>Ayush Negi</h1>
-
-<img src="2d0c8e14226aa0a7ca7e84f7401edc21.jpg" class="profile-img">
-
-<p class="bio">Welcome to my official profile links</p>
-
-<a class="btn" href="https://instagram.com/aaayush_uk15">Instagram</a>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ayush Negi</title>
-
-<style>
 
 body{
-margin:0;
 font-family:Arial, sans-serif;
 text-align:center;
 color:white;
 background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#1c92d2);
 background-size:400% 400%;
 animation:bgmove 10s ease infinite;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 @keyframes bgmove{
@@ -108,7 +33,9 @@ animation:bgmove 10s ease infinite;
 }
 
 .container{
-margin-top:70px;
+width:100%;
+max-width:300px;
+padding:30px 20px;
 }
 
 .profile-img{
@@ -118,24 +45,25 @@ border-radius:50%;
 object-fit:cover;
 border:4px solid white;
 box-shadow:0 0 15px rgba(255,255,255,0.6);
-margin:15px auto;
+margin:0 auto 20px;
 display:block;
 }
 
 h1{
 font-size:28px;
 margin:10px 0;
+font-weight:bold;
 }
 
 .bio{
 font-size:14px;
-margin-bottom:25px;
+margin-bottom:30px;
 opacity:0.9;
 }
 
 .btn{
 display:block;
-width:220px;
+width:100%;
 margin:12px auto;
 padding:12px;
 border-radius:25px;
@@ -144,6 +72,9 @@ color:white;
 background:#ff416c;
 font-weight:bold;
 transition:0.3s;
+border:none;
+cursor:pointer;
+font-size:14px;
 }
 
 .btn:hover{
@@ -152,7 +83,7 @@ background:#ff4b2b;
 }
 
 footer{
-margin-top:25px;
+margin-top:30px;
 font-size:12px;
 opacity:0.7;
 }
@@ -167,17 +98,17 @@ opacity:0.7;
 
 <h1>Ayush Negi</h1>
 
-<img src="2d0c8e14226aa0a7ca7e84f7401edc21.jpg" class="profile-img">
+<img src="2d0c8e14226aa0a7ca7e84f7401edc21.jpg" alt="Ayush Negi Profile" class="profile-img">
 
 <p class="bio">Welcome to my official profile links</p>
 
-<a class="btn" href="https://instagram.com/aaayush_uk15">Instagram</a>
+<a class="btn" href="https://instagram.com/aaayush_uk15" target="_blank">Instagram</a>
 
-<a class="btn" href="https://wa.me/989136714249">WhatsApp</a>
+<a class="btn" href="https://wa.me/989136714249" target="_blank">WhatsApp</a>
 
 <a class="btn" href="mailto:ayushnegi20567@gmail.com">Email</a>
 
-<a class="btn" href="#">X (Twitter)</a>
+<a class="btn" href="https://x.com/Ayush5545851974" target="_blank">X (Twitter)</a>
 
 <footer>© 2026 Ayush Negi</footer>
 
@@ -185,3 +116,4 @@ opacity:0.7;
 
 </body>
 </html>
+
